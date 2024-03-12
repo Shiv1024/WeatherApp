@@ -1,0 +1,108 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html{
+    font-family: "Montserrat", sans-serif;
+}
+body {
+    background:	#ADD8E6;
+    padding: 0 16px;
+}
+.header{
+    background-color: rgb(0, 100, 128);
+    margin: auto -16px;
+    padding: 16px 32px;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.3);
+}
+.header h1{
+    color: whitesmoke;
+    font-family: "McLaren", cursive;
+    font-weight: 200;
+}
+.searcharea{
+    position: relative;
+    margin: 30px auto 20px auto ;
+    padding: 15px;
+    width: 350px;
+    border-radius:10px ;
+    box-shadow: 0 1px 5px rgb(138, 137, 137);
+    background-color: white;
+}
+.input{
+  width: 100%;
+  border: none;
+  padding: 2px;
+  outline: none;
+  font-size: 1.5em;
+  font-family: inherit;
+  resize: none;
+}
+.button {
+    position: absolute;
+    top: 5px;
+    right: -65px;
+    background:  rgb(0, 100, 128);
+    color: #fff;
+    border: none;
+    border-radius: 50%;
+    width: 48px;
+    height: 48px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
+    cursor: pointer;
+    outline: none;
+  }
+.weather-icon{
+    margin-top: -30px;
+    display: flex;
+    justify-content: center;
+}
+.weather-icon img{
+    width: 200px;
+    height: 200px;
+}
+.temp{
+    margin-top: -20px;
+    display: flex;
+    justify-content: center;
+}
+.temp h1{
+    font-size: 120px;
+    font-weight: 400;
+    color: black;
+}
+.location{
+    display: flex;
+    justify-content: center;
+    font-size: 60px;
+    font-weight: 400;
+}
+.weather-element{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+}
+.element{
+    margin: auto;
+    display: flex;
+    align-items: flex-start;
+    gap: 12px;
+}
+.element  img{
+    width: 100px;
+    height: 100px;
+    margin-top: -35px;
+}
+.data{
+    font-size: 30px;
+    font-weight: 400;
+    margin-top: -15px;
+}
+.text{
+    font-size: 20px;
+    font-weight: 400;
+}
+.icon{
+    margin-top: 10px;
+}
